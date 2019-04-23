@@ -1,0 +1,56 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="LPLPrediction:war exploded">
+    <output-path>$PROJECT_DIR$/target/LPLPrediction</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>LPLPrediction</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="LPLPrediction" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-mongodb:1.9.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.12.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongo-java-driver:2.14.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.19" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.19" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.7" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.7" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.1" />
+          <element id="library" level="project" name="Maven: org.apache.struts:struts2-core:2.3.35" />
+          <element id="library" level="project" name="Maven: org.apache.struts.xwork:xwork-core:2.3.35" />
+          <element id="library" level="project" name="Maven: asm:asm:3.3" />
+          <element id="library" level="project" name="Maven: asm:asm-commons:3.3" />
+          <element id="library" level="project" name="Maven: asm:asm-tree:3.3" />
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.28" />
+          <element id="library" level="project" name="Maven: ognl:ognl:3.0.21" />
+          <element id="library" level="project" name="Maven: javassist:javassist:3.11.0.GA" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.2" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.2" />
+          <element id="library" level="project" name="Maven: org.apache.struts:struts2-convention-plugin:2.3.35" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.2" />
+          <element id="library" level="project" name="Maven: org.apache.struts:struts2-dojo-plugin:2.3.35" />
+          <element id="library" level="project" name="Maven: org.apache.struts:struts2-spring-plugin:2.3.35" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.0.5.RELEASE" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/LPLPrediction/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="LPLPrediction/web/Web" />
+    </root>
+  </artifact>
+</component>
